@@ -41,3 +41,12 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+input:focus {
+	outline: none;
+}
+
+a {
+	color: #2E373D;
+	text-decoration: none;
+}

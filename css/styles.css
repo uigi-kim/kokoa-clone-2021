@@ -1,14 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,200&display=swap');
 @import "reset.css";
-@import "status-bar.css";
+@import "variables.css";
+
+/* Components */
+@import "components/status-bar.css";
+@import "components/nav-bar.css";
+
+/* Screens */
+@import "screens/login.css";
+
+
 
 body{
     font-family: 'Montserrat', sans-serif;
-}
-
-.welcome-header {
-    margin: 93px 0px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    height: 1000vh;
 }
